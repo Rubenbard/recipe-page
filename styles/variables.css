@@ -1,0 +1,33 @@
+:root {
+  /* Colors */
+  --color-white: hsl(0, 0%, 100%);
+  
+  /* Stone colors */
+  --color-stone-100: hsl(30, 54%, 90%);
+  --color-stone-150: hsl(30, 18%, 87%);
+  --color-stone-600: hsl(30, 10%, 34%);
+  --color-stone-900: hsl(24, 5%, 18%);
+  
+  /* Brown colors */
+  --color-brown-800: hsl(14, 45%, 36%);
+  
+  /* Rose colors */
+  --color-rose-800: hsl(332, 51%, 32%);
+  --color-rose-50: hsl(330, 100%, 98%);
+  
+  /* Typography */
+  --font-size-body: 16px;
+  
+  /* Font families */
+  --font-family-serif: 'Young Serif', serif;
+  --font-family-sans: 'Outfit', sans-serif;
+  
+  /* Font weights */
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  
+  /* Breakpoints */
+  --mobile-width: 375px;
+  --desktop-width: 1440px;
+} 
