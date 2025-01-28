@@ -1,3 +1,61 @@
+/* Reset default styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default button styles */
+button {
+  border: none;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+
 :root {
   /* Colors */
   --color-white: hsl(0, 0%, 100%);
@@ -17,10 +75,11 @@
   
   /* Typography */
   --font-size-body: 16px;
+  --font-size-h2:1.75rem;
   
   /* Font families */
-  --font-family-serif: 'Young Serif', serif;
-  --font-family-sans: 'Outfit', sans-serif;
+  --font-family-serif: 'Young Serif';
+  --font-family-sans: 'Outfit';
   
   /* Font weights */
   --font-weight-regular: 400;
